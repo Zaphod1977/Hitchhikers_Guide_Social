@@ -1,0 +1,19 @@
+{
+  "name": "hitchhikers_guide_social",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaphod1977/Hitchhikers_Guide_Social.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaphod1977/Hitchhikers_Guide_Social/issues"
+  },
+  "homepage": "https://github.com/Zaphod1977/Hitchhikers_Guide_Social#readme"
+}
