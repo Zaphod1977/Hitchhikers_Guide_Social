@@ -14,11 +14,11 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017', {
 
 // Read JSON files
 const users = JSON.parse(
-  fs.readFileSync(`${__dirname}/seeds/user-seeds.json`, "utf-8")
+  fs.readFileSync(`${__dirname}/user-seeds.json`, "utf-8")
 );
 const thoughts = JSON.parse(
-    fs.readFileSync(`${__dirname}/seeds/thought-seeds.json`, "utf-8")
-  );
+  fs.readFileSync(`${__dirname}/thought-seeds.json`, "utf-8")
+);
 
 // Import into DB
 const importData = async () => {
@@ -27,10 +27,11 @@ const importData = async () => {
     console.log("Data Imported...");
     await Thought.create(thoughts);
     console.log("Data Imported...");
-    process.exit();
   } catch (err) {
     console.error(err);
   }
+  process.exit();
+
 };
 
 // Delete data
@@ -40,10 +41,10 @@ const deleteData = async () => {
     console.log("Data Destroyed...");
     await Thought.deleteMany();
     console.log("Data Destroyed...");
-    process.exit();
   } catch (err) {
     console.error(err);
   }
+  process.exit();
 };
 
 if (process.argv[2] === "-i") {

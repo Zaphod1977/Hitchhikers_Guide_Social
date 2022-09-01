@@ -1,11 +1,10 @@
-const { User } = require('../models/user.js');
+const User = require('../models/user.js');
 
 const userController = {
     // get all users
     getAllUser(req, res) {
+        console.log(User);
         User.find({})
-            .select('-__v')
-            .sort({ _id: -1 })
             .then(dbUserData => res.json(dbUserData))
             .catch(err => {
                 console.log(err);

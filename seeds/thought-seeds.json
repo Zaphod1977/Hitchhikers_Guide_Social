@@ -1,53 +1,15 @@
 [
     {
         "thoughtText": "this is some text",
-        "createdAt": "timestamp",
+        "createdAt": "1662000865162",
         "username": "this is the username",
         "reactions": [
             {
-                "reactionId": "this is the reaction id",
-                "reactionBody": "this is the reaction body",
-                "username": "this is the username for the reaction",
-                "createdAt": "time of reaction"
-            }
-        ]
-    },
-    {
-        "thoughtText": "this is some text",
-        "createdAt": "timestamp",
-        "username": "this is the username",
-        "reactions": [
-            {
-                "reactionId": "this is the reaction id",
-                "reactionBody": "this is the reaction body",
-                "username": "this is the username for the reaction",
-                "createdAt": "time of reaction"
-            }
-        ]
-    },
-    {
-        "thoughtText": "this is some text",
-        "createdAt": "timestamp",
-        "username": "this is the username",
-        "reactions": [
-            {
-                "reactionId": "this is the reaction id",
-                "reactionBody": "this is the reaction body",
-                "username": "this is the username for the reaction",
-                "createdAt": "time of reaction"
-            }
-        ]
-    },
-    {
-        "thoughtText": "this is some text",
-        "createdAt": "timestamp",
-        "username": "this is the username",
-        "reactions": [
-            {
-                "reactionId": "this is the reaction id",
-                "reactionBody": "this is the reaction body",
-                "username": "this is the username for the reaction",
-                "createdAt": "time of reaction"
+                "reactionId": "631023958cbcad31acab7d64",
+                "reactionBody": "this is a really real reaction",
+                "username": "this is another username",
+                "createdAt": "2022-09-01T02:54:25.162Z",
+                "_id": "631024fa8cbcad31acab7d68"
             }
         ]
     }

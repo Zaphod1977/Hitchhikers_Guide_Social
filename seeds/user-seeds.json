@@ -1,25 +1,25 @@
 [
     {
         "userName": "this is a username",
-        "email": "this is an email",
+        "email": "bobby@nunya.com",
         "thoughts": [],
         "friends": []
     },
     {
-        "userName": "this is a username",
-        "email": "this is an email",
+        "userName": "this is not a username",
+        "email": "larry@cableguy.com",
         "thoughts": [],
         "friends": []
     },
     {
-        "userName": "this is a username",
-        "email": "this is an email",
+        "userName": "this is could be a username",
+        "email": "bob@thebuilder.org",
         "thoughts": [],
         "friends": []
     },
     {
-        "userName": "this is a username",
-        "email": "this is an email",
+        "userName": "this is definately a username",
+        "email": "ford@prefect.com",
         "thoughts": [],
         "friends": []
     }
