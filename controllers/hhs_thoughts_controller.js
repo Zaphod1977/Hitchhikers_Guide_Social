@@ -61,18 +61,18 @@ const thoughtController = {
     },
 
     // POST to create a reaction stored in a single thought's reactions array field
-    addNewFriend({ params, body }, res) {
-        User.findOneAndUpdate({ _id: params.id },
-            { $push: { friends: params.friendId } })
-            .then(dbUserData => res.json(dbUserData))
+    addNewReaction({ params, body }, res) {
+        Thought.findOneAndUpdate({ _id: params.thoughtId },
+            { $push: { reactions: body } })
+            .then(dbThoughtData => res.json(dbThoughtData))
             .catch(err => res.json(err))
     },
 
     // DELETE to pull and remove a reaction by the reaction's reactionId value
-    removeFriend({ params }, res) {
-        User.findOneAndUpdate({ _id: params.userId },
-            { $pull: { friends: params.friendId } })
-            .then(dbUserData => res.json(dbUserData))
+    removeReaction({ params, body }, res) {
+        Thought.findOneAndUpdate({ _id: params.thoughtId },
+            { $pull: { reactions: body.reactionId } })
+            .then(dbThoughtData => res.json(dbThoughtData))
             .catch(err => res.json(err))
     }
 };
