@@ -1,25 +1,43 @@
 [
     {
-        "userName": "this is a username",
+        "userName": "zaphod bobbybrox",
         "email": "bobby@nunya.com",
         "thoughts": [],
         "friends": []
     },
     {
-        "userName": "this is not a username",
-        "email": "larry@cableguy.com",
+        "userName": "tricia mcmillian",
+        "email": "tricia@trillian.com",
         "thoughts": [],
         "friends": []
     },
     {
-        "userName": "this is could be a username",
-        "email": "bob@thebuilder.org",
+        "userName": "arthur dent",
+        "email": "arthur@earthman.org",
         "thoughts": [],
         "friends": []
     },
     {
-        "userName": "this is definately a username",
-        "email": "ford@prefect.com",
+        "userName": "ford prefect",
+        "email": "ford.prefect@megadodopublications.com",
+        "thoughts": [],
+        "friends": []
+    },
+    {
+        "userName": "grand questioner geltze",
+        "email": "geltzey@badpoetry.com",
+        "thoughts": [],
+        "friends": []
+    },
+    {
+        "userName": "slartly bartfast",
+        "email": "slarts@dontask.com",
+        "thoughts": [],
+        "friends": []
+    },
+    {
+        "userName": "marvin robot",
+        "email": "marvin@depressedrobot.com",
         "thoughts": [],
         "friends": []
     }

@@ -1,16 +1,58 @@
 [
     {
-        "thoughtText": "this is some text",
+        "thoughtText": "never leave without your towell",
         "createdAt": "1662000865162",
-        "username": "this is the username",
+        "username": "ford prefect",
         "reactions": [
             {
                 "reactionId": "631023958cbcad31acab7d64",
-                "reactionBody": "this is a really real reaction",
-                "username": "this is another username",
+                "reactionBody": "the galaxy is a cold place, never be caught without your towell",
+                "username": "ford prefect",
                 "createdAt": "2022-09-01T02:54:25.162Z",
                 "_id": "631024fa8cbcad31acab7d68"
             }
         ]
+    },
+    {
+        "thoughtText": "hang on, we're hitching a ride",
+        "createdAt": "1662000865162",
+        "username": "ford prefect",
+        "reactions": []
+    },
+    {
+        "thoughtText": "if anything is more important than my ego I want it taken out and shot",
+        "createdAt": "1662000865162",
+        "username": "zaphod bobbybrox",
+        "reactions": []
+    },
+    {
+        "thoughtText": "ford...I feel like a sofa",
+        "createdAt": "1662000865162",
+        "username": "arthur dent",
+        "reactions": []
+    },
+    {
+        "thoughtText": "lets go to madagascar",
+        "createdAt": "1662000865162",
+        "username": "tricia mcmillian",
+        "reactions": []
+    },
+    {
+        "thoughtText": "this part always gives me the willies",
+        "createdAt": "1662000865162",
+        "username": "slartly bartfast",
+        "reactions": []
+    },
+    {
+        "thoughtText": "a brain the size of a planet and i'm escorting these two to the bridge",
+        "createdAt": "1662000865162",
+        "username": "marvin robot",
+        "reactions": []
+    },
+    {
+        "thoughtText": "what do you think of my poetry",
+        "createdAt": "1662000865162",
+        "username": "grand questioner geltze",
+        "reactions": []
     }
 ]
