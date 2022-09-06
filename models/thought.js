@@ -43,16 +43,16 @@ const thoughtSchema = new Schema({
         type: String,
         require: true
     },
-        reactions: [reactionSchema],
-    },
-        {
-            virtuals: {
-                reactionCount: {
-                    get() {
-                        return this.reactions.length;
-                    }
+    reactions: [reactionSchema],
+},
+    {
+        virtuals: {
+            reactionCount: {
+                get() {
+                    return this.reactions.length;
                 }
             }
-        });
+        }
+    });
 
-    module.exports = model('Thought', thoughtSchema);
+module.exports = model('Thought', thoughtSchema);
